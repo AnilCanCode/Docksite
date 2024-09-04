@@ -111,14 +111,14 @@ window.CONFIG = {
     },
     {
       category: 'Programming',
-      name: 'GitHub',
+      name: 'Quizlet',
       icon: 'github',
-      url: 'https://github.com',
-      normalisedURL: 'github.com',
+      url: '',
+      normalisedURL: 'nieuwsbegrip.nl',
       triggers: [
-        'g',
-        'git',
-        'github'
+        'q',
+        'quiz',
+        'quizlet',
       ],
       key: 'KeyG',
       commands: {
@@ -132,7 +132,7 @@ window.CONFIG = {
       },
       bgColor: {
         type: 'solid',
-        color: '#171515'
+        color: '#423ed8'
       },
       textColor: '#e8e8e8',
       pinned: true
@@ -197,7 +197,7 @@ window.CONFIG = {
       url: 'https://translate.google.com',
       normalisedURL: 'translate.google.com',
       triggers: [
-        't',
+        'tr',
         'translate'
       ],
       key: 'KeyT',
@@ -227,7 +227,7 @@ window.CONFIG = {
       ],
       key: 'KeyI',
       icon: 'instagram',
-      url: 'https://sites.google.com/d/1Rr9TXniTsR6_mAAo2qFM_8vCWHaR2QJu/p/1YcBBIruE94157xGq6mCQ__Ucv7Pb7QYR/edit',
+      url: 'https://english-portfolio-akshay-shenoy-myp-3-a.vercel.app/',
       normalisedURL: 'instagram.com',
       commands: {
         go: {
@@ -246,17 +246,17 @@ window.CONFIG = {
       pinned: true
     },
     {
-      category: 'Music',
-      name: 'spotify',
+      category: 'Work',
+      name: 'Sathee',
       icon: 'spotify',
-      url: 'https://open.spotify.com',
+      url: 'https://jeetest.prutor.ai/student-home',
       normalisedURL: 'spotify.com',
       triggers: [
-        'music',
-        'sp',
-        'sfy',
-        'spo',
-        'spotify'
+        's',
+        'sa',
+        'sath',
+        'sat',
+        'sathee'
       ],
       commands: {
         search: {
@@ -268,10 +268,12 @@ window.CONFIG = {
         }
       },
       bgColor: {
-        type: 'solid',
-        color: '#1ccc5b'
+        type: 'gradient',
+        gradientType: 'linear',
+        angle: 45,
+        colors: [' #0057B7', '#FFD700']
       },
-      textColor: '#000',
+      textColor: '#fff',
       pinned: true
     },
     {
@@ -349,16 +351,16 @@ window.CONFIG = {
     },
     {
       category: 'Social',
-      name: 'WebStore',
+      name: 'Nieusbegrip',
       icon: 'twitter',
-      url: 'https://chrome.google.com/webstore/category/extensions?hl=nl',
+      url: 'https://school.nieuwsbegrip.nl/leerling/dashboard',
       normalisedURL: 'twitter.com',
       triggers: [
-        'web',
-        'chro',
-        'websto',
-        'sto',
-        'webstore'
+        'n',
+        'nieus',
+        'begrip',
+        'nieusbe',
+        'nieusbegrip',
       ],
       commands: {
         search: {
@@ -370,7 +372,7 @@ window.CONFIG = {
       },
       bgColor: {
         type: 'solid',
-        color: '#C0CC8E',
+        color: '#f39200',
       },
       textColor: '#e8e8e8',
       pinned: true
@@ -474,14 +476,14 @@ window.CONFIG = {
     },
     {
       category: 'Education',
-      name: 'Wikipedia',
+      name: 'Onedrive',
       icon: 'wikipedia',
       triggers: [
-        'wi',
-        'wiki',
-        'wikipedia'
+        'o',
+        'one',
+        'onedrive'
       ],
-      url: 'https://www.wikipedia.org',
+      url: 'https://itech120-my.sharepoint.com/personal/itech120_itech120_onmicrosoft_com/_layouts/15/onedrive.aspx?login_hint=Itech120%40itech120%2Eonmicrosoft%2Ecom&view=1',
       normalisedURL: 'wikipedia.org',
       commands: {
         search: {
@@ -494,7 +496,7 @@ window.CONFIG = {
       bgColor: {
         type: 'gradient',
         gradientType: 'linear',
-        colors: ['#e1e1e3', '#bbb'],
+        colors: ['#28a8ea', '#259edc'],
         stops: [60, 100]
       },
       textColor: '#000',
@@ -502,31 +504,31 @@ window.CONFIG = {
     },
     {
       category: 'Work',
-      name: 'Slack',
+      name: 'Knowt',
       icon: 'slack',
       triggers: [
-        'sl',
-        'slack'
+        'kn',
+        'knowt'
       ],
-      url: 'https://app.slack.com',
+      url: 'https://knowt.com/?code=3dd5e7fb-e710-4ddd-94b4-d91d5f4f151b&state=cudNjX5AbjQb9XOauIFda2eU9bMEpkk5',
       normalisedURL: 'slack.com',
       bgColor: {
         type: 'gradient',
         gradientType: 'linear',
         angle: -200,
-        colors: ['#d6abb9', '#e6d7b8', '#bce2eb', '#8db0a4']
+        colors: ['#ddf6f3', '#ddf6f3', '#afc3c0', '#e4fffb']
       },
       textColor: '#00bd6d',
     },
     {
       category: 'Social',
-      name: 'VK',
+      name: 'Kahoot',
       triggers: [
-        'v',
-        'vk',
-        'vkontakte',
+        'k',
+        'kah',
+        'kahoot',
       ],
-      url: 'https://vk.com',
+      url: 'https://kahoot.it/',
       normalisedURL: 'vk.com',
       commands: {
         go: {
@@ -540,21 +542,21 @@ window.CONFIG = {
       bgColor: {
         type: 'gradient',
         gradientType: 'linear',
-        colors: ['#0077ff', '#0033ff']
+        colors: ['#381272', '#4255ff']
       },
       textColor: '#e8e8e8'
     },
     {
       category: 'Search',
-      name: 'DuckDuckGo',
+      name: 'Math Solver',
       triggers: [
-        'dd',
-        'ddg',
-        'duck',
-        'duckduck',
-        'duckduckgo'
+        'm',
+        'math',
+        'solve',
+        'mathsolve',
+        'mathsolver'
       ],
-      url: 'https://duckduckgo.com',
+      url: 'https://mathsolver.microsoft.com/en',
       normalisedURL: 'duckduckgo.com',
       commands: {
         search: {
@@ -563,7 +565,7 @@ window.CONFIG = {
       },
       bgColor: {
         type: 'solid',
-        color: '#e37151'
+        color: '#50a6bf'
       },
       textColor: '#e8e8e8'
     },
@@ -590,12 +592,12 @@ window.CONFIG = {
     },
     {
       category: 'Search',
-      name: 'Yandex',
+      name: 'Office',
       triggers: [
-        'ya',
-        'yandex'
+        'off',
+        'office'
       ],
-      url: 'https://ya.ru',
+      url: 'https://www.office.com/?flight=unauthrefresh&auth=2',
       normalisedURL: 'ya.ru',
       commands: {
         search: {
@@ -603,8 +605,9 @@ window.CONFIG = {
         }
       },
       bgColor: {
-        type: 'solid',
-        color: '#fc3f1d'
+        type: 'gradient',
+        gradientType: 'linear',
+        colors: ['#b3b7f8', '#ece7f9', '#b4d1f3']
       },
       textColor: '#000'
     },
